@@ -8,18 +8,9 @@ const data = [
     {
         id: 2,
         name: 'Sepatu Nike',
-        price: 980_000,
+        price: 980000,
     },
-    {
-        id: 3,
-        name: 'Sepatu Hitam',
-        price: 380_000,
-    },
-    {
-        id: 4,
-        name: 'Sepatu Biru',
-        price: 590_000,
-    },
+    
 ];
 export async function GET(request: NextRequest) {
 
